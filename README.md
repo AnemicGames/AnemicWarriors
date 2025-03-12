@@ -1,3 +1,4 @@
 # AnemicWarriors
-Kjetil HH
-Thomas
+Kjetil HH  
+Thomas  
+Jonas  
