@@ -2,6 +2,8 @@
 
 ## Marius Anemic champion
 
-Kjetil HH
-Thomas
+
+Kjetil HH  
+Thomas  
+Jonas  
 
