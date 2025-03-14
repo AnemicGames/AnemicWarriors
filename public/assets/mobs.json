@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Fallen knight",
+        "baseHP": 150,
+        "baseStrength": 12,
+        "baseSpeed": 10,
+        "baseDefence": 12,
+        "lvlMultiplier": 1.1,
+        "dropChance": 1.1,
+        "baseGold": 10,
+        "sprite": "/assets/sprites/mobs/fallen_knight.png"
+    },
+    {
+        "name": "Forest elemental",
+        "baseHP": 130,
+        "baseStrength": 10,
+        "baseSpeed": 15,
+        "baseDefence": 8,
+        "lvlMultiplier": 1.2,
+        "dropChance": 0.8,
+        "baseGold": 12,
+        "sprite": "/assets/sprites/mobs/forest_elemental.png"
+    },
+    {
+        "name": "Ghost",
+        "baseHP": 80,
+        "baseStrength": 6,
+        "baseSpeed": 18,
+        "baseDefence": 5,
+        "lvlMultiplier": 1.3,
+        "dropChance": 1.5,
+        "baseGold": 8,
+        "sprite": "/assets/sprites/mobs/ghost.png"
+    },
+    {
+        "name": "Necromancer",
+        "baseHP": 110,
+        "baseStrength": 14,
+        "baseSpeed": 12,
+        "baseDefence": 10,
+        "lvlMultiplier": 1.15,
+        "dropChance": 1.3,
+        "baseGold": 15,
+        "sprite": "/assets/sprites/mobs/necromancer.png"
+    },
+    {
+        "name": "Shade",
+        "baseHP": 90,
+        "baseStrength": 7,
+        "baseSpeed": 16,
+        "baseDefence": 6,
+        "lvlMultiplier": 1.2,
+        "dropChance": 1.0,
+        "baseGold": 9,
+        "sprite": "/assets/sprites/mobs/shade.png"
+    },
+    {
+        "name": "Shadowy figure",
+        "baseHP": 95,
+        "baseStrength": 8,
+        "baseSpeed": 17,
+        "baseDefence": 7,
+        "lvlMultiplier": 1.25,
+        "dropChance": 1.0,
+        "baseGold": 10,
+        "sprite": "/assets/sprites/mobs/shadowy_figure.png"
+    },
+    {
+        "name": "Sorcerer",
+        "baseHP": 100,
+        "baseStrength": 16,
+        "baseSpeed": 11,
+        "baseDefence": 9,
+        "lvlMultiplier": 1.2,
+        "dropChance": 1.4,
+        "baseGold": 14,
+        "sprite": "/assets/sprites/mobs/sorcerer.png"
+    },
+    {
+        "name": "Stone golem",
+        "baseHP": 200,
+        "baseStrength": 18,
+        "baseSpeed": 5,
+        "baseDefence": 20,
+        "lvlMultiplier": 1.05,
+        "dropChance": 0.7,
+        "baseGold": 20,
+        "sprite": "/assets/sprites/mobs/stone_golem.png"
+    },
+    {
+        "name": "Succubus",
+        "baseHP": 85,
+        "baseStrength": 13,
+        "baseSpeed": 14,
+        "baseDefence": 8,
+        "lvlMultiplier": 1.3,
+        "dropChance": 1.2,
+        "baseGold": 11,
+        "sprite": "/assets/sprites/mobs/succubus.png"
+    }
+]
