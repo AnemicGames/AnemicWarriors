@@ -1,20 +1,20 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
+import { createUiSlice } from './uiSlice';
+import { createPlayerSlice } from './playerSlice';
+import { createInventorySlice } from './inventorySlice';
+import { createMapSlice } from './mapSlice';
+import { createBattleSlice } from './battleSlice';
+
 export const useGameStore = create(
   persist(
     (set, get) => ({
-
-      //currentView brukes for å vite hvilken view vi skal vise i appen.
-      currentView: 'SPLASH',
-      setCurrentView: (view) => set({ currentView: view }),
-
-      //Embark state bruker vi for å vite vi skal navigere til main menu eller map fra shop.
-      //Når embark er false når shoppen lukke skal vi navigere til main menu, hvis den er true skal vi navigere til map.
-      //Embark settes til true når vi trykker på embark knappen i Main Menu.
-      //Embark settes til false når vi har drept bossen eller dør i kamp og blir sendt tilbake til main menu.
-      embark: false,
-      setEmbark: (value) => set({ embark: value }),
+      ...createUiSlice(set, get),
+      ...createPlayerSlice(set, get),
+      ...createInventorySlice(set, get),
+      ...createMapSlice(set, get),
+      ...createBattleSlice(set, get),
     }),
     {
       name: 'anemic-heroes-store',

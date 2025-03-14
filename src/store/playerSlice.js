@@ -6,7 +6,9 @@ export const createPlayerSlice = (set, get) => ({
       maxHp: 100,
       attack: 10,
       defense: 5,
+      speed: 5,
       xp: 0,
+      xpToNextLvl: 100,
     },
   });
   
