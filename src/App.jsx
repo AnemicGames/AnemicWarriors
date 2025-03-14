@@ -7,6 +7,7 @@ import MapView from './screens/MapView';
 import BattleView from './screens/BattleView';
 import CharacterSheet from './screens/CharacterSheet';
 import Shop from './screens/Shop';
+import CreateCharacter from './screens/CreateCharacter';
 
 export default function App() {
   const currentView = useGameStore((state) => state.currentView);
@@ -24,6 +25,8 @@ export default function App() {
       return <CharacterSheet />;
     case 'SHOP':
       return <Shop />;
+    case 'CREATE_CHARACTER':
+      return <CreateCharacter />;
     default:
       return <SplashScreen />;
   }
