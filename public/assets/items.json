@@ -11,7 +11,8 @@
           "defense": 0
         },
         "dropChance": 30,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/weapons/staff_wpn.png"
       },
       {
         "id": "WPN_DAGGER",
@@ -23,7 +24,8 @@
           "defense": 0
         },
         "dropChance": 30,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/weapons/dagger_wpn.png"
       },
       {
         "id": "WPN_SWORD",
@@ -35,7 +37,8 @@
           "defense": 0
         },
         "dropChance": 30,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/weapons/sword_wpn.png"
       },
 
       {
@@ -48,7 +51,8 @@
           "defense": 2
         },
         "dropChance": 20,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/armor/cloth_hlm.png"
       },
       {
         "id": "HLM_HOOD",
@@ -60,7 +64,8 @@
           "defense": 1
         },
         "dropChance": 20,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/armor/leather_hlm.png"
       },
       {
         "id": "HLM_HELMET",
@@ -72,7 +77,8 @@
           "defense": 4
         },
         "dropChance": 20,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/armor/iron_hlm.png"
       },
   
   
@@ -86,7 +92,8 @@
           "defense": 5
         },
         "dropChance": 15,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/armor/cloth_arm.png"
       },
       {
         "id": "ARM_VEST",
@@ -98,7 +105,8 @@
           "defense": 3
         },
         "dropChance": 15,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/armor/leather_arm.png"
       },
       {
         "id": "ARM_PLATE",
@@ -110,7 +118,8 @@
           "defense": 5
         },
         "dropChance": 15,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/armor/iron_arm.png"
       },
   
 
@@ -124,7 +133,8 @@
           "defense": 0
         },
         "dropChance": 12,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/armor/cloth_bts.png"
       },
       {
         "id": "BTS_BOOTS",
@@ -136,7 +146,8 @@
           "defense": 0
         },
         "dropChance": 12,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/armor/leather_bts.png"
       },
       {
         "id": "BTS_GREAVES",
@@ -148,7 +159,8 @@
           "defense": 3
         },
         "dropChance": 12,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/armor/iron_bts.png"
       },
 
       {
@@ -161,11 +173,12 @@
           "defense": 0
         },
         "dropChance": 25,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/trinkets/wiz_trk.png"
       },
       {
-        "id": "TRK_TALISMAN",
-        "name": "Thief's Talisman",
+        "id": "TRK_RING",
+        "name": "Thief's Ring",
         "type": "trinket",
         "statModifiers": {
           "strength": 1,
@@ -173,7 +186,8 @@
           "defense": 0
         },
         "dropChance": 25,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/trinkets/rouge_trk.png"
       },
       {
         "id": "TRK_NECKLACE",
@@ -185,7 +199,8 @@
           "defense": 0
         },
         "dropChance": 25,
-        "equippable": true
+        "equippable": true,
+        "sprite":"/assets/sprites/trinkets/warr_trk.png"
       },
   
  
@@ -195,7 +210,8 @@
         "type": "potion",
         "healAmount": 50,
         "dropChance": 60,
-        "equippable": false
+        "equippable": false,
+        "sprite":"/assets/sprites/potions/hp_pot.png"
       }
     ]
   }
